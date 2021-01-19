@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #333;
+}
+
+body, html {
+    background-color: var(--bg-color);
+    
+    margin: 0;
+    padding: 0;
+}
+
+.content { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
